@@ -2,16 +2,16 @@
 #   Main Configs   #
 # ---------------- #
 baseurl:
-url: https://mazhuang.org
+url: https://=kevinzhw153.github.io/
 date_format: "ordinal"
 title: 码志
-subtitle: "公众号：闷骚的程序员"
-description: "马壮的个人博客，公众号：闷骚的程序员"
-keywords: 码志, Zhuang Ma, mzlogin, mazhuang, 闷骚的程序员
-timezone: Asia/Shanghai
-encoding: "utf-8"
+subtitle: ""
+description: ""
+keywords: 
+timezone: 
+encoding: ""
 side_bar_repo_limit: 5
-repository: mzlogin/mzlogin.github.io
+repository: kevinzhw153/kevinzhw153.github.io
 # 对 css 和 js 资源的 cdn 加速配置
 cdn:
     jsdelivr:
@@ -41,9 +41,9 @@ highlight_theme: github
 author: Zhuang Ma
 organization: 
 organization_url: 
-github_username: mzlogin
-location: Wuhan, China
-email: chumpma@gmail.com
+github_username: kevinzhw153
+location: BeiJing, China
+email: kevinzhw153@126.com
 
 # ---------------- #
 #    Navigation    #
@@ -116,21 +116,11 @@ comments_provider: gitalk
 # !!!重要!!! 请修改下面这些信息为你自己申请的
 # !!!Important!!! Please modify infos below to yours
 # https://disqus.com
-disqus:
-    username: 
-# https://imsun.net/posts/gitment-introduction/
-gitment:
-    owner: mzlogin
-    repo: blog-comments
-    oauth:
-        client_id: d2e1cbbd298958076462
-        client_secret: b42a4178e5fd4a7cf63189ef4b1453b05c375709
-# https://github.com/gitalk/gitalk#install
 gitalk:
-    owner: mzlogin
-    repo: blog-comments
-    clientID: d2e1cbbd298958076462
-    clientSecret: b42a4178e5fd4a7cf63189ef4b1453b05c375709
+    owner: kevinzhw153
+    repo: kevinzhw153.github.io
+    clientID: 10ec16bec67b39db983f
+    clientSecret: 32fef06b36810c41d42295e65164847a79bb3061
 # 在使用其它评论组件时可点击显示 Disqus
 lazy_load_disqus : false
 
@@ -147,7 +137,7 @@ simple_jekyll_search:
 #      Google      #
 # ---------------- #
 google:
-    analytics_id: UA-80669434-1
+    analytics_id: UA-173251435-1
     adsense:
         footer: true
         sidebar: true 
